@@ -1,6 +1,6 @@
 {
-    "name": "golem/auth-storage-aura",
-    "description": "Aura Session storage adapter for Golem Auth",
+    "name": "golem/auth-storage-symfony",
+    "description": "Symfony Session storage adapter for Golem Auth",
     "type": "library",
     "license": "MIT",
     "authors": [
