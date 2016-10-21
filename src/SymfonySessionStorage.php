@@ -6,6 +6,16 @@ use Symfony\Component\HttpFoundation\Session\Session;
 class SymfonySessionStorage implements StorageInterface
 {
     /**
+     * @var Session
+     */
+    private $session;
+
+    /**
+     * @var string
+     */
+    private $namespace
+
+    /**
      * Class constructor
      * @param Session $session
      * @param string  $namespace
