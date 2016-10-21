@@ -13,7 +13,7 @@ class SymfonySessionStorage implements StorageInterface
     /**
      * @var string
      */
-    private $namespace
+    private $namespace;
 
     /**
      * Class constructor
