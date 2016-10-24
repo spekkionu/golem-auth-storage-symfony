@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/spekkionu/golem-auth-storage-symfony.svg?branch=master)](https://travis-ci.org/spekkionu/golem-auth-storage-symfony)
 [![Code Coverage](https://scrutinizer-ci.com/g/spekkionu/golem-auth-storage-symfony/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/spekkionu/golem-auth-storage-symfony/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spekkionu/golem-auth-storage-symfony/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/spekkionu/golem-auth-storage-symfony/?branch=master)
-[![Total Downloads](https://poser.pugx.org/golem/auth-storage-symfony/downloads.png)](https://packagist.org/packages/golem/auth-storage-symfony)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/26a4334e-e39b-441d-82f1-822cb88239b2/mini.png)](https://insight.sensiolabs.com/projects/26a4334e-e39b-441d-82f1-822cb88239b2)
 
 Symfony Session storage adapter for Golem Auth
 
