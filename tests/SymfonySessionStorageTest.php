@@ -5,7 +5,7 @@ use Golem\Auth\Storage\SymfonySessionStorage;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
 
-class SymfonySessionStorageTest extends \PHPUnit_Framework_TestCase
+class SymfonySessionStorageTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var Session
