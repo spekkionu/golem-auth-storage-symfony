@@ -5,19 +5,19 @@ use Golem\Auth\Storage\SymfonySessionStorage;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
 
-class SymfonySessionStorageTest extends \PHPUnit_Framework_TestCase
+class SymfonySessionStorageTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var Session
      */
-    private $session;
+    protected $session;
 
     /**
      * @var SymfonySessionStorage
      */
-    private $storage;
+    protected $storage;
 
-    public function setUp()
+    public function setUp() : void
     {
         $this->session = new Session(new MockArraySessionStorage());
         $this->storage = new SymfonySessionStorage($this->session, 'namespace');
