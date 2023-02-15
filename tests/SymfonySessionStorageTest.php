@@ -19,6 +19,7 @@ class SymfonySessionStorageTest extends \PHPUnit\Framework\TestCase
 
     public function setUp() : void
     {
+        parent::setUp();
         $this->session = new Session(new MockArraySessionStorage());
         $this->storage = new SymfonySessionStorage($this->session, 'namespace');
     }
